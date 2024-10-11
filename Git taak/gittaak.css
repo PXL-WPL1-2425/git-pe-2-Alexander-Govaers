@@ -2,6 +2,8 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
+
 }
 .navigatie-balk {
     display: flex;
@@ -11,16 +13,47 @@
 }
 .RiotGames {
     width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 img{
     max-width: 100%;
     height: 100%;
 }
 .Nav-menu {
-    background-color: yellow;
+
     width: 33.33%;
 }
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul li{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14pt;
+    font-family: arial, sans-serif
+
+
+}
+
 .login-container{
     background-color: blue;
     width: 33.33%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body {
+    background-color: black;
 }
