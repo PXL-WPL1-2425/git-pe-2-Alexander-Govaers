@@ -6,12 +6,15 @@
 .navigatie-balk {
     display: flex;
     flex-direction: row;
-     height: 8vh;
+     max-height: 8vh;
     max-width: 100vw;
 }
 .RiotGames {
-    background-color: red;
     width: 33.33%;
+}
+img{
+    max-width: 100%;
+    height: 100%;
 }
 .Nav-menu {
     background-color: yellow;
