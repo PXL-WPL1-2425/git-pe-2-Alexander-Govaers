@@ -22,7 +22,9 @@ img{
     height: 100%;
 }
 .Nav-menu {
-
+    display: flex;
+    justify-content: center;
+    text-align: center;
     width: 33.33%;
 }
 ul{
@@ -48,11 +50,26 @@ ul li a{
 }
 
 .login-container{
-    background-color: blue;
+
     width: 33.33%;
     display: flex;
     justify-content: center;
     align-items: center;
+}
+div > a {
+    text-decoration: none;
+    background-color: red;
+    height: 30px;
+    width: 100px;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: bold;
+    color: black;
+    font-size: 11pt;
+    font-family: arial, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body {
     background-color: black;
